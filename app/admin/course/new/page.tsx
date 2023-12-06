@@ -25,10 +25,10 @@ export default function NewCourse({
     }
     return (
         <div>
-            <h1 className=" text-center text-4xl">Cadastrar Cursos</h1>
+            <h1 className=" text-center text-4xl">Cadastrar Impressora</h1>
             <form>
-                <Input type="text" name="title" placeholder="Digite o Título do Curso"/><br/>
-                <Input type="text" name="description" placeholder="Digite a Descriçao do curso"/> <br/>
+                <Input type="text" name="title" placeholder="Digite o marca da impressora"/><br/>
+                <Input type="text" name="description" placeholder="Digite modelo da impressora"/> <br/>
                 <br/>
                 <UploadButton /> <br/>
                 <Button formAction={saveCourse} className="text-white">Salvar</Button>
